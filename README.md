@@ -3,11 +3,7 @@ CloudFlare 一键 ddns 脚本
 
 下载cf-v4-ddns.sh编辑一下加到crontab里就完事了
 
-sudo wget https://raw.githubusercontent.com/noir1216/cf-api-v4-ddns/master/cf-v4-ddns.sh
-
-sudo chmod +x /root/cf-v4-ddns.sh
-
-sudo nano /root/cf-v4-ddns.sh
+curl https://raw.githubusercontent.com/noir1216/cf-api-v4-ddns/master/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
 
 修改default config下的几个配置变量
 其中CFTOKEN填的是API Token，中文叫API令牌，别填了下面的API Key
