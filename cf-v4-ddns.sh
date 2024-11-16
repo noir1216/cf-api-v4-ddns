@@ -28,7 +28,7 @@ set -o pipefail
 
 # API key, see https://www.cloudflare.com/a/account/my-account,
 # incorrect api-key results in E_UNAUTH error
-CFKEY=d0d947cae5d8b95b946387038cd094a73af28
+CFKEY=
 
 # Username, eg: user@example.com
 CFUSER=
